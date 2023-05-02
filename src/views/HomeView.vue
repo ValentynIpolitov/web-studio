@@ -1,9 +1,15 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import FirstSection from '../components/FirstSection.vue'
+import OurServices from '../components/OurServices.vue'
+import Technologies from '../components/Technologies.vue'
+import DealProcess from '../components/DealProcess.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <FirstSection />
+    <OurServices />
+    <Technologies />
+    <DealProcess />
   </main>
 </template>
