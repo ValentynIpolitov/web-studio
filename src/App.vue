@@ -1,5 +1,5 @@
 <template>
-  <Header class="bg-green-500" />
+  <Header />
 
   <RouterView />
 

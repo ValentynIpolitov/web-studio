@@ -11,7 +11,7 @@
 
 <script setup>
 import Nav from './Nav.vue';
-import { ref, onMounted } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 
 const isSticky = ref(false);
 
@@ -26,11 +26,13 @@ function updateSticky() {
     // Get the offset position of the header
     var headerOffset = header.offsetTop;
 
+    console.log('works '+window.pageYOffset+' - '+headerOffset)
+    console.log(isSticky.value)
     if (window.pageYOffset > headerOffset) {
-        this.isSticky = true;
+        isSticky.value = true;
         // header.classList.add("sticky")
     } else {
-        this.isSticky = false;
+        isSticky.value = false;
         // header.classList.remove("sticky");
     }
 }

@@ -13,3 +13,16 @@ import DealProcess from '../components/DealProcess.vue'
     <DealProcess />
   </main>
 </template>
+
+<style lang="scss">
+@media (min-width: 1024px) {
+  main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}
+</style>
