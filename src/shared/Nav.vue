@@ -112,15 +112,15 @@ function closeMenu() {
 // when header sticky
 .is-sticky {
     .bar {
-        color: rgb(245 158 11);
-        background-color: rgb(245, 158, 11);
+        color: #85D5EB;
+        background-color: #85D5EB;
     }
 }
 
 @media only screen and (max-width: 1023px) {
     .nav-menu {
         position: fixed;
-        background: black !important;
+        background: #5954A4 !important;
         left: -100%;
         top: 6rem;
         flex-direction: column;

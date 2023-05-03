@@ -57,6 +57,10 @@ function updateSticky() {
         transform: scale(.7);
         transition: all linear .2s
     }
+
+    @media only screen and (max-width: 1023px) {
+        background-color: #5954A4;
+    }
 }
 
 #logo {
