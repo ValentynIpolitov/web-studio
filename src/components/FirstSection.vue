@@ -13,28 +13,27 @@
                 <NavLink to="/#our_services">
                     <Button class="btn-secondary">Our services</Button>
                 </NavLink>
-
-                <!-- Boobles for animation -->
-                <div class="boobles-wrapper">
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                    <div><span class="booble"></span></div>
-                </div>
             </div>
             <div class="xl:w-1/2">
                 <img class="w-auto" src="@/assets/main-1.png" alt="">
+            </div>
+            <!-- Boobles for animation -->
+            <div class="boobles-wrapper">
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
+                <div><span class="booble"></span></div>
             </div>
         </div>
     </div>
