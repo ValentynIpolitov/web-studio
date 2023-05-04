@@ -1,7 +1,7 @@
 <template>
     <div
         class="w-full min-h-screen bg-[url('@/assets/main-bg.jpg')] bg-fixed bg-no-repeat bg-center bg-cover pt-16  flex flex-col	justify-center	align-start">
-        <div class="container m-auto px-6 flex flex-col gap-y-8 xl:flex-row">
+        <div class="container m-auto px-6 flex flex-col gap-y-8 xl:flex-row xl:justify-between">
             <div class="z-10 flex flex-col justify-center items-center md:items-start xl:w-1/2">
                 <div class="typewriter mb-12">
                     <h1 class="text-white uppercase text-center md:text-left">Web development studio</h1>
@@ -14,8 +14,8 @@
                     <Button class="btn-secondary">Our services</Button>
                 </NavLink>
             </div>
-            <div class="xl:w-1/2">
-                <img class="w-auto" src="@/assets/main-1.png" alt="">
+            <div class="xl:w-1/3">
+                <img class="w-full" src="@/assets/main-img.svg" alt="">
             </div>
             <!-- Boobles for animation -->
             <div class="boobles-wrapper">

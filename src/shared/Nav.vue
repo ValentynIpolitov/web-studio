@@ -19,7 +19,9 @@
             </li> -->
 
             <li class="nav-item">
-                <Button class="btn-primary">Contact us</Button>
+                <a target="_blank" href="https://calendly.com/valentyn4ik/30min">
+                    <Button class="btn-primary">Schedule a meeting</Button>
+                </a>
             </li>
         </ul>
 
