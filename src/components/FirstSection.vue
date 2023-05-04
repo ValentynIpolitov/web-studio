@@ -2,7 +2,7 @@
     <div
         class="w-full min-h-screen bg-[url('@/assets/main-bg.jpg')] bg-fixed bg-no-repeat bg-center bg-cover pt-16  flex flex-col	justify-center	align-start">
         <div class="container m-auto px-6 flex flex-col gap-y-8 xl:flex-row">
-            <div class="flex flex-col justify-center items-center md:items-start xl:w-1/2">
+            <div class="z-10 flex flex-col justify-center items-center md:items-start xl:w-1/2">
                 <div class="typewriter mb-12">
                     <h1 class="text-white uppercase text-center md:text-left">Web development studio</h1>
                 </div>
@@ -89,6 +89,7 @@ import NavLink from '../shared/NavLink.vue';
 /* Boobles animation */
 .boobles-wrapper {
     position: absolute;
+    z-index: 5;
     min-height: 100vh;
     width: 100%;
     top: 0;
