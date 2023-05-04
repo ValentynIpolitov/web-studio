@@ -33,6 +33,11 @@
 
 .btn-primary {
   @apply text-white bg-blue-500 hover:bg-blue-600;
+  &:hover {
+    color: #85D5EB;
+    border: 3px solid #85D5EB;
+    background: transparent;
+  }
 }
 
 .btn-secondary {

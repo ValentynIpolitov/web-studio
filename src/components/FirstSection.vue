@@ -7,7 +7,9 @@
                     “The last ten years of IT have been about changing the way people work. 
                     <br>The next ten years of IT will be about transforming your business.” 
                 </p>
-                <Button class="btn-secondary">Our services</Button>
+                <NavLink to="/#our_services" >
+                    <Button class="btn-secondary">Our services</Button>
+                </NavLink>
             </div>
             <div class="xl:w-1/2">
                 <img class="w-auto" src="@/assets/main-1.png" alt="">
@@ -18,6 +20,7 @@
 
 <script setup>
 import Button from './Button.vue'
+import NavLink from '../shared/NavLink.vue';
 </script>
 
 <style lang="scss" scoped></style>

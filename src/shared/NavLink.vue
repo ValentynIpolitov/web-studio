@@ -1,8 +1,8 @@
 <template>
     <!-- change color active to amber -->
     <RouterLink
-        class="text-white"
-        active-class="underline"
+        class="text-white transition ease-in-out duration-300 hover:text-cyan-400"
+        active-class=""
     >
         <slot />
     </RouterLink>

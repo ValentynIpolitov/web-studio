@@ -1,6 +1,6 @@
 <template>
-    <section class="w-full">
-        <div class="container m-auto px-6 py-6 flex flex-col items-center justify-start md:items-start">
+    <section class="w-full bg-main-1">
+        <div class="container m-auto px-6 py-6 flex flex-col items-center justify-start gap-y-8 md:items-start">
             <h2>Deal process</h2>
 
             <div class="w-full flex flex-col justify-start items-center gap-8 md:flex-row md:justify-between md:flex-wrap">
@@ -87,7 +87,7 @@ import IconOnline from './icons/IconOnline.vue'
         height: auto;
         top: 0;
         bottom: 0;
-        left: 20px;
+        left: 10px;
         border-radius: 10px;
         background: #85D5EB;
         filter: blur(5px);

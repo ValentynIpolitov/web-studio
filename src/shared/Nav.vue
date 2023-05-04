@@ -8,16 +8,18 @@
 
         <ul class="nav-menu z-50">
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink to="/about" @click="closeMenu()">Home</NavLink>
+                <NavLink to="/#our_services" @click="closeMenu()">Our services</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink to="/" @click="closeMenu()">Our services</NavLink>
+                <NavLink to="/#set_up_a_call" @click="closeMenu()">Technologies</NavLink>
             </li>
-            <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink to="/" @click="closeMenu()">Technologies</NavLink>
-            </li>
-            <li class="nav-item white-text-shadow hover-underline-animation">
+
+            <!-- <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink to="/" @click="closeMenu()">Blog</NavLink>
+            </li> -->
+
+            <li class="nav-item">
+                <Button class="btn-primary">Contact us</Button>
             </li>
         </ul>
 
@@ -31,6 +33,7 @@
 
 <script setup>
 import NavLink from './NavLink.vue';
+import Button from '../components/Button.vue';
 import { onMounted } from 'vue'
 
 onMounted(() => {
@@ -58,7 +61,11 @@ function closeMenu() {
 
     const navMenu = document.querySelector(".nav-menu");
     navMenu.classList.remove("active");
+  
+    // const el = this.$refs[refName]
+    // el.scrollIntoView({ behavior: 'smooth' })
 }
+
 </script>
 
 <style lang="scss" scoped>

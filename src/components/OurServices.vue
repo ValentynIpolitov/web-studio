@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full">
+    <section class="w-full bg-main-1">
         <div class="container m-auto px-6 py-6 flex flex-col items-center justify-start md:items-start">
             <h2>Our services</h2>
             <div class="flex flex-col items-center justify-start">

@@ -9,9 +9,9 @@ import SetUpACall from '../components/SetUpACall.vue'
 <template>
   <main>
     <FirstSection />
-    <OurServices />
+    <OurServices id="our_services"/>
     <SetUpACall />
-    <Technologies />
+    <Technologies id="set_up_a_call" />
     <DealProcess />
   </main>
 </template>
