@@ -2,7 +2,6 @@
     <nav class="navbar z-50">
         <div class="w-40">
             <NavLink to="/">
-                <img id="logo" class="w-full nav-logo" src="/images/logo_1_white_active.svg" alt="">
             </NavLink>
         </div>
 
