@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node dist/index.html"
+    "start": "node node_moduls/vue/dist/server-renderer/index.mjs"
     
   },
   "dependencies": {
