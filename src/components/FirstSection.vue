@@ -14,7 +14,7 @@
                     <Button class="btn-secondary">Our services</Button>
                 </NavLink>
             </div>
-            <div class="xl:w-1/3">
+            <div class="z-10 xl:w-1/3">
                 <img class="w-full" src="@/assets/main-img.svg" alt="">
             </div>
             <!-- Boobles for animation -->
@@ -51,8 +51,6 @@ import NavLink from '../shared/NavLink.vue';
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid #85D5EB;
     /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
@@ -60,6 +58,17 @@ import NavLink from '../shared/NavLink.vue';
     animation:
         typing 3.5s steps(30, end),
         blink-caret .7s step-end infinite;
+    
+    font-size: 25pt;
+    
+    @media screen and (min-width: 768px) {
+        font-size: 36pt;
+    }
+    
+    @media screen and (min-width: 1023px) {
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+    }
 }
 
 /* The typing effect */
@@ -125,7 +134,7 @@ div .booble {
 
 .boobles-wrapper div:nth-child(2) {
     top: 60%;
-    left: 80%;
+    left: 70%;
     animation: bobls 10s linear infinite;
 }
 
@@ -179,7 +188,7 @@ div .booble {
 
 .boobles-wrapper div:nth-child(11) {
     top: 10%;
-    left: 90%;
+    left: 70%;
     animation: bobls 9s linear infinite;
 }
 
@@ -203,7 +212,7 @@ div .booble {
 
 .boobles-wrapper div:nth-child(15) {
     top: 90%;
-    left: 80%;
+    left: 70%;
     animation: bobls 9s linear infinite;
 }
 
