@@ -59,7 +59,6 @@ function updateSticky() {
     }
 
     @media only screen and (max-width: 1023px) {
-        background-color: #5954A4;
     }
 }
 
