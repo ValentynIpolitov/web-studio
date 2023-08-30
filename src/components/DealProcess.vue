@@ -7,7 +7,7 @@
                 <!-- step #1 -->
                 <div class="set-up-a-call-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl font-semibold">01</span>
+                        <span class="text-4xl">01</span>
                         
                         <h3 class="text-xl uppercase">Set up a call</h3>
     
@@ -18,7 +18,7 @@
                 <!-- step #2 -->
                 <div class="discuss-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl font-semibold">02</span>
+                        <span class="text-4xl">02</span>
                         
                         <h3 class="text-xl uppercase">Discuss</h3>
     
@@ -29,7 +29,7 @@
                 <!-- step #3 -->
                 <div class="create-design-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl font-semibold">03</span>
+                        <span class="text-4xl">03</span>
                         
                         <h3 class="text-xl uppercase">Create design</h3>
     
@@ -40,7 +40,7 @@
                 <!-- step #4 -->
                 <div class="implement-design-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl font-semibold">04</span>
+                        <span class="text-4xl">04</span>
                         
                         <h3 class="text-xl uppercase">Implement design</h3>
     
@@ -51,7 +51,7 @@
                 <!-- step #5 -->
                 <div class="online-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl font-semibold">05</span>
+                        <span class="text-4xl">05</span>
                         
                         <h3 class="text-xl uppercase">You are ONLINE</h3>
     
@@ -77,7 +77,7 @@ import IconOnline from './icons/IconOnline.vue'
     position: relative;
     z-index: 10;
     span {
-        color: #85D5EB;
+        color: #6C63FF;
     }
 
     &::before {
@@ -98,60 +98,60 @@ import IconOnline from './icons/IconOnline.vue'
 .set-up-a-call-card {
     @extend .card;
 
-    span {
-        color: #85EBD3;
+    h3 {
+        color: #2717ab;
     }
 
     &::before {
-        background: #85EBD3;
+        background: #2717ab;
     }
 }
 
 .discuss-card {
     @extend .card;
     
-    span {
-        color: #85D5EB;
+    h3 {
+        color: #4E1AA2;
     }
 
     &::before {
-        background: #85D5EB;
+        background: #4E1AA2;
     }
 }
 
 .create-design-card {
     @extend .card;
     
-    span {
-        color: #85EB95;
+    h3 {
+        color: #78359e;
     }
 
     &::before {
-        background: #85EB95;
+        background: #78359e;
     }
 }
 
 .implement-design-card {
     @extend .card;
-    
-    span {
-        color: #CAEB85;
+
+    h3 {
+        color: #8f1993;
     }
 
     &::before {
-        background: #CAEB85;
+        background: #8f1993;
     }
 }
 
 .online-card {
     @extend .card;
-    
-    span {
-        color: #EBD585;
+
+    h3 {
+        color: #cd26cd;
     }
 
     &::before {
-        background: #EBD585;
+        background: #cd26cd;
     }
 }
 
