@@ -45,8 +45,7 @@ function updateSticky() {
     width: 100%;
     padding-top: 40px;
 
-    background-color: #000;
-    opacity: .8;
+    background-color: rgba($color: #000, $alpha: 0.8);
 
     transition: all .2s ease, background-position 1ms;
 

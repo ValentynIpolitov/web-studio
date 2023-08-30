@@ -126,7 +126,7 @@ function closeMenu() {
 @media only screen and (max-width: 1023px) {
     .nav-menu {
         position: fixed;
-        background: #000 !important;
+        background: rgba(0, 0, 0, 0.8) !important;
         left: -100%;
         top: 6rem;
         flex-direction: column;
@@ -140,7 +140,9 @@ function closeMenu() {
     }
 
     .is-sticky .nav-menu {
-        top: 4rem;
+        top: 77px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 
     .nav-menu.active {
