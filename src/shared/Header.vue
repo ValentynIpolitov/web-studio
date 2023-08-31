@@ -66,6 +66,8 @@ function updateSticky() {
 }
 
 header {
+    min-height: 100px;
+    display: flex;
     transition: all .2s ease, background-position 1ms;
 }
 </style>
