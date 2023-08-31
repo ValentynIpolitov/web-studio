@@ -49,8 +49,6 @@ import NavLink from '../shared/NavLink.vue';
 .typewriter h1 {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #85D5EB;
-    /* The typwriter cursor */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
@@ -58,13 +56,13 @@ import NavLink from '../shared/NavLink.vue';
     animation:
         typing 3.5s steps(30, end),
         blink-caret .7s step-end infinite;
-    
+
     font-size: 25pt;
-    
+
     @media screen and (min-width: 768px) {
         font-size: 36pt;
     }
-    
+
     @media screen and (min-width: 1023px) {
         white-space: nowrap;
         /* Keeps the content on a single line */
@@ -74,11 +72,15 @@ import NavLink from '../shared/NavLink.vue';
 /* The typing effect */
 @keyframes typing {
     from {
-        width: 0
+        width: 0;
+        /* The typwriter cursor */
+        border-right: .15em solid #85D5EB;
     }
 
     to {
-        width: 100%
+        width: 100%;
+        /* The typwriter cursor */
+        border-right: .15em solid #85D5EB;
     }
 }
 
