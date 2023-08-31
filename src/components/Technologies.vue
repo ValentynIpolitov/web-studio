@@ -2,7 +2,8 @@
     <section class="w-full bg-main-2">
         <div class="container m-auto px-6 py-6 flex flex-col items-center justify-start gap-y-8 md:items-start">
             <h2>Technologies</h2>
-            <div class="w-full flex flex-col justify-start items-center gap-y-8 md:flex-row md:justify-center md:gap-x-32	">
+            <div
+                class="technologies w-full flex flex-col justify-start items-center gap-y-8 md:flex-row md:justify-center md:gap-x-32	">
                 <div>
                     <IconReact class="w-36 h-auto"></IconReact>
                     <h3 class="text-center">React</h3>
@@ -28,5 +29,21 @@ import IconVue from './icons/IconVue.vue';
 import IconLaravel from './icons/IconLaravel.vue';
 </script>
   
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.technologies {
+    transition: all .3s ease;
+
+    div {
+    transition: all .3s ease;
+
+        &:hover {
+            scale: 1.1;
+            &::before {
+                left: 9px;
+                filter: blur(3px);
+            }
+        }
+    }
+}
+</style>
   

@@ -76,6 +76,8 @@ import IconOnline from './icons/IconOnline.vue'
 .card {
     position: relative;
     z-index: 10;
+    transition: all .3s ease;
+
     span {
         color: #6C63FF;
     }
@@ -93,6 +95,14 @@ import IconOnline from './icons/IconOnline.vue'
         filter: blur(5px);
         z-index: -1;
         
+    }
+
+    &:hover {
+        scale: 1.03;
+        &::before {
+            left: 9px;
+            filter: blur(3px);
+        }
     }
 }
 .set-up-a-call-card {
