@@ -2,7 +2,8 @@
     <section class="header z-500 absolute w-full top-0 left-0">
         <header id="header" class="py-6 z-50" :class="{ 'is-sticky': isSticky }">
             <!-- header -->
-            <div class="container m-auto px-6">
+            <div class="container m-auto px-6 flex justify-between">
+                <img id="logo" class="w-32" src="../assets/logo.png" alt="">
                 <Nav />
             </div>
         </header>
@@ -53,7 +54,7 @@ function updateSticky() {
     padding-bottom: 0.5rem;
 
     #logo {
-        transform: scale(.7);
+        transform: scale(.8);
         transition: all linear .2s
     }
 
