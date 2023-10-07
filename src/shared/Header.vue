@@ -3,7 +3,7 @@
         <header id="header" class="py-6 z-50" :class="{ 'is-sticky': isSticky }">
             <!-- header -->
             <div class="container m-auto px-6 flex justify-between">
-                <img id="logo" class="w-24" src="../assets/logo.png" alt="">
+                <img id="logo" class="w-20 xl:w-24" src="../assets/logo.png" alt="">
                 <Nav />
             </div>
         </header>
