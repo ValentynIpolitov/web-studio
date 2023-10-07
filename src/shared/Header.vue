@@ -3,7 +3,7 @@
         <header id="header" class="py-6 z-50" :class="{ 'is-sticky': isSticky }">
             <!-- header -->
             <div class="container m-auto px-6 flex justify-between">
-                <img id="logo" class="w-32" src="../assets/logo.png" alt="">
+                <img id="logo" class="w-24" src="../assets/logo.png" alt="">
                 <Nav />
             </div>
         </header>
@@ -67,8 +67,13 @@ function updateSticky() {
 }
 
 header {
-    min-height: 100px;
+    min-height: 70px;
     display: flex;
     transition: all .2s ease, background-position 1ms;
+
+    &.is-sticky {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 </style>

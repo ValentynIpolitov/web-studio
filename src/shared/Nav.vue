@@ -19,7 +19,7 @@
 
             <li class="nav-item">
                 <a target="_blank" href="https://calendly.com/valentyn4ik/30min">
-                    <Button class="btn-primary">Schedule a meeting</Button>
+                    <Button class="btn-secondary">Schedule a meeting</Button>
                 </a>
             </li>
         </ul>
@@ -42,9 +42,6 @@ onMounted(() => {
     const navMenu = document.querySelector(".nav-menu");
 
     hamburger.addEventListener("click", mobileMenu);
-
-    const navLink = document.querySelectorAll(".nav-link");
-    navLink.forEach(n => n.addEventListener("click", closeMenu));
 })
 
 
@@ -99,16 +96,6 @@ function closeMenu() {
 .nav-item {
     margin-left: 5rem;
     text-transform: uppercase;
-}
-
-.nav-link {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569;
-}
-
-.nav-link:hover {
-    color: #482ff7;
 }
 
 .nav-logo {
