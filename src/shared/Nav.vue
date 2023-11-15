@@ -10,7 +10,7 @@
                 <NavLink to="/#our_services" @click="closeMenu()">Our services</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink to="/#set_up_a_call" @click="closeMenu()">Technologies</NavLink>
+                <NavLink to="/#technologies" @click="closeMenu()">Technologies</NavLink>
             </li>
 
             <!-- <li class="nav-item white-text-shadow hover-underline-animation">

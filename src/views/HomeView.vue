@@ -11,7 +11,7 @@ import SetUpACall from '../components/SetUpACall.vue'
     <FirstSection />
     <OurServices id="our_services"/>
     <SetUpACall />
-    <Technologies id="set_up_a_call" />
+    <Technologies id="technologies"/>
     <DealProcess />
   </main>
 </template>

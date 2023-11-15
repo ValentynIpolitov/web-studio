@@ -7,9 +7,9 @@
                 <!-- step #1 -->
                 <div class="set-up-a-call-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl">01</span>
+                        <span class="text-4xl animate-charcter">01</span>
                         
-                        <h3 class="text-xl uppercase">Set up a call</h3>
+                        <h3 class="text-xl uppercase animate-charcter">Set up a call</h3>
     
                         <IconSetUpACall class="w-full h-auto" />
                     </div>
@@ -18,9 +18,9 @@
                 <!-- step #2 -->
                 <div class="discuss-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl">02</span>
+                        <span class="text-4xl animate-charcter">02</span>
                         
-                        <h3 class="text-xl uppercase">Discuss</h3>
+                        <h3 class="text-xl uppercase animate-charcter">Discuss</h3>
     
                         <IconDiscuss class="w-full h-auto" />
                     </div>
@@ -29,9 +29,9 @@
                 <!-- step #3 -->
                 <div class="create-design-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl">03</span>
+                        <span class="text-4xl animate-charcter">03</span>
                         
-                        <h3 class="text-xl uppercase">Create design</h3>
+                        <h3 class="text-xl uppercase animate-charcter">Create design</h3>
     
                         <IconCreateDesign class="w-full h-auto" />
                     </div>
@@ -40,9 +40,9 @@
                 <!-- step #4 -->
                 <div class="implement-design-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl">04</span>
+                        <span class="text-4xl animate-charcter">04</span>
                         
-                        <h3 class="text-xl uppercase">Implement design</h3>
+                        <h3 class="text-xl uppercase animate-charcter">Implement design</h3>
     
                         <IconImplementDesign class="w-full h-auto" />
                     </div>
@@ -51,9 +51,9 @@
                 <!-- step #5 -->
                 <div class="online-card">
                     <div class="w-full px-4 py-5 gap-y-6 bg-white rounded custom-shadow flex flex-col justify-start items-center md:w-64 md:h-80">
-                        <span class="text-4xl">05</span>
+                        <span class="text-4xl animate-charcter">05</span>
                         
-                        <h3 class="text-xl uppercase">You are ONLINE</h3>
+                        <h3 class="text-xl uppercase animate-charcter">You are ONLINE</h3>
     
                         <IconOnline class="w-full h-auto" />
                     </div>
