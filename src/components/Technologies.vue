@@ -2,7 +2,7 @@
     <section class="w-full bg-main-2 overflow-hidden z-10">
         <div class="container m-auto px-6 py-6 flex flex-col items-center justify-start md:items-start">
         <!-- <div class="container m-auto px-6 py-6 flex flex-col items-center justify-start gap-y-8 md:items-start"> -->
-            <h2 class="h-before h-before-2">Technologies</h2>
+            <h2 class="h-before">Technologies</h2>
             <div
                 class="technologies w-full flex flex-col justify-start items-center gap-y-8 md:flex-row md:justify-center md:gap-x-32	">
                 <div>

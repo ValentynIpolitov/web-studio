@@ -29,11 +29,6 @@
                 <div><span class="booble"></span></div>
                 <div><span class="booble"></span></div>
                 <div><span class="booble"></span></div>
-                <div><span class="booble"></span></div>
-                <div><span class="booble"></span></div>
-                <div><span class="booble"></span></div>
-                <div><span class="booble"></span></div>
-                <div><span class="booble"></span></div>
             </div>
         </div>
     </div>
@@ -130,19 +125,19 @@ div .booble {
 
 .boobles-wrapper div:nth-child(1) {
     top: 20%;
-    left: 20%;
+    left: 5%;
     animation: bobls 8s linear infinite;
 }
 
 .boobles-wrapper div:nth-child(2) {
     top: 60%;
-    left: 70%;
+    left: 10%;
     animation: bobls 10s linear infinite;
 }
 
 .boobles-wrapper div:nth-child(3) {
     top: 40%;
-    left: 40%;
+    left: 25%;
     animation: bobls 3s linear infinite;
 }
 
@@ -154,25 +149,25 @@ div .booble {
 
 .boobles-wrapper div:nth-child(5) {
     top: 90%;
-    left: 10%;
+    left: 40%;
     animation: bobls 9s linear infinite;
 }
 
 .boobles-wrapper div:nth-child(6) {
     top: 30%;
-    left: 60%;
+    left: 35%;
     animation: bobls 5s linear infinite;
 }
 
 .boobles-wrapper div:nth-child(7) {
     top: 70%;
-    left: 20%;
+    left: 11%;
     animation: bobls 8s linear infinite;
 }
 
 .boobles-wrapper div:nth-child(8) {
     top: 75%;
-    left: 60%;
+    left: 15%;
     animation: bobls 10s linear infinite;
 }
 
@@ -186,36 +181,6 @@ div .booble {
     top: 45%;
     left: 20%;
     animation: bobls 10s linear infinite;
-}
-
-.boobles-wrapper div:nth-child(11) {
-    top: 10%;
-    left: 70%;
-    animation: bobls 9s linear infinite;
-}
-
-.boobles-wrapper div:nth-child(12) {
-    top: 20%;
-    left: 70%;
-    animation: bobls 7s linear infinite;
-}
-
-.boobles-wrapper div:nth-child(13) {
-    top: 20%;
-    left: 20%;
-    animation: bobls 8s linear infinite;
-}
-
-.boobles-wrapper div:nth-child(14) {
-    top: 60%;
-    left: 5%;
-    animation: bobls 6s linear infinite;
-}
-
-.boobles-wrapper div:nth-child(15) {
-    top: 90%;
-    left: 70%;
-    animation: bobls 9s linear infinite;
 }
 
 @keyframes bobls {
