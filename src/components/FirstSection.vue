@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full min-h-screen bg-[url('@/assets/main-bg.jpg')] bg-fixed bg-no-repeat bg-center bg-cover pt-36 xl:pt-16  flex flex-col	justify-center	align-start">
+        class="w-full min-h-screen bg-[url('@/assets/main-bg.jpg')] bg-fixed bg-no-repeat bg-center bg-cover pt-36 xl:pt-16  flex flex-col	justify-center	align-start overflow-hidden z-10">
         <div class="container m-auto px-6 flex flex-col gap-y-8 xl:flex-row xl:justify-between">
             <div class="z-10 flex flex-col justify-center items-center md:items-start xl:w-1/2">
                 <div class="typewriter mb-12">

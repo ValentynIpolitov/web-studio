@@ -1,7 +1,7 @@
 <template>
-    <section class="w-full bg-main-1">
+    <section class="w-full bg-main-1 overflow-hidden z-10">
         <div class="container m-auto px-6 py-6 flex flex-col items-center justify-start gap-y-8 md:items-start">
-            <h2>Deal process</h2>
+            <h2 class="h-before h-before-3">Deal process</h2>
 
             <div class="w-full flex flex-col justify-start items-center gap-8 md:flex-row md:justify-between md:flex-wrap">
                 <!-- step #1 -->
