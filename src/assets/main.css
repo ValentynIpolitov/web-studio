@@ -105,13 +105,27 @@ p {
   animation: textclip 3s linear infinite;
   display: inline-block;
 }
-
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
 
+
+.floating-image {
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
 
 /* a,
 .green {

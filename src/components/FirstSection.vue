@@ -15,7 +15,7 @@
                 </NavLink>
             </div>
             <div class="z-10 hidden xl:block xl:w-1/3">
-                <img class="w-full" src="@/assets/main-img.svg" alt="">
+                <img class="w-full floating-image" src="@/assets/main-img.svg" alt="">
             </div>
             <!-- Boobles for animation -->
             <div class="boobles-wrapper">
